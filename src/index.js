@@ -1,7 +1,7 @@
 import express from "express";
-import { comentarioProduto } from "../routes/inserirComentario.js";
-import { resultadosProdutos} from "../routes/avaliacaoProduto.js";
-import { comentariosProdutos } from "../routes/comentariosProdutos.js";
+import { comentarioProduto } from "./controllers/inserirComentario.js";
+import { resultadosProdutos} from "./controllers/avaliacaoProduto.js";
+import { comentariosProdutos } from "./controllers/comentariosProdutos.js";
 const app = express()
 
 app.use(express.json())

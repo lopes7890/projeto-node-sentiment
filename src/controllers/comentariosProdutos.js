@@ -1,4 +1,4 @@
-import { db } from "../src/db.js";
+import { db } from "../config/db.js";
 
 export const comentariosProdutos = async (nome, res) => {
 

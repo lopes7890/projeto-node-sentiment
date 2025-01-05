@@ -1,5 +1,5 @@
-import { db } from "../src/db.js";
-import { nota } from "../functions/calcularNota.js";
+import { db } from "../config/db.js";
+import { nota } from "../utils/calcularNota.js";
 
 export const comentarioProduto = async (req, res, nome) => {
 
